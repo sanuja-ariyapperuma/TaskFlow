@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+
+table {
+  width: 100%;
+}
+
+.container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+}
+
+.add-todo-area {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.view-todo-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 3%;
+}
+
+.btn-area {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+
+.todo-search-area {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+}
